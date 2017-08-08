@@ -74,7 +74,7 @@ if ( ! $product->is_purchasable() ) return;
     <fieldset class="field_submit">
 	 	<button type="submit" class="single_add_to_cart_button button secondary">
              <span class="auxiliar">Añadir a mi bolsa
-                <img src="http://ummiandbala.com.mx/shop/wp-content/themes/flatsome1.9.9.5/flatsome/images/icons/bolsita.png" alt="Añadir a la bolsa">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/icons/bolsita.png" alt="Añadir a la bolsa">
              </span>
          </button>
 
