@@ -275,7 +275,7 @@ if($flatsome_opt['html_intro'] && is_front_page()) echo '<div class="home-intro"
             <ul class="main_nav">
                 <li><a href="<?php echo get_home_url(); ?>"><p><span>Inicio</span></p></a></li>
                 <li class="nav-dash dash-ummi">
-                    <a href="http://shop.ummiandbala.com/categoria-producto/ummi/">
+                    <a href="/producto-categoría/ummi">
                         <p>
                             <img src="<?php echo get_template_directory_uri(); ?>/images/nav_ummi.png" alt="Ummi">
                         </p>
@@ -288,12 +288,12 @@ if($flatsome_opt['html_intro'] && is_front_page()) echo '<div class="home-intro"
                             <div class="sub-menu-left2 sub-menu-sec">
                                 <div class="sub-menu-left2-temp-0"></div>
                             </div>
-                            <?php wp_nav_menu( array('menu' => 'bala-nav' )); ?>
+                            <?php wp_nav_menu( array('menu' => 'ummi-nav' )); ?>
                         </div>
                     </div>
                 </li>
                 <li class="nav-dash dash-bala">
-                    <a href="http://shop.ummiandbala.com/categoria-producto/bala/">
+                    <a href="/producto-categoría/bala">
                         <p>
                             <img src="<?php echo get_template_directory_uri(); ?>/images/van_bala.png" alt="Bala">
                         </p>

@@ -36,10 +36,6 @@ get_header(); ?>
         ?>
         [top_rated_products per_page="12"]
 
-
-
-
-
 	</div><!-- .page-inner -->
 </div><!-- .#content large-9 left -->
 
