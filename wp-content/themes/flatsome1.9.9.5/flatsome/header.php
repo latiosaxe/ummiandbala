@@ -49,9 +49,9 @@ if($flatsome_opt['html_intro'] && is_front_page()) echo '<div class="home-intro"
         <div class="large-12 columns">
             <!-- left text -->
 <!--            <div class="left-text left">-->
-<!--                <div class="html">--><?php //echo do_shortcode( $flatsome_opt['topbar_left']);?><!--</div><!-- .html -->-->
+<!--                <div class="html">--><?php //echo do_shortcode( $flatsome_opt['topbar_left']);?><!--</div><!-- .html -->
 <!--            </div>-->
-<!--            <!-- right text -->-->
+<!--            <!-- right text -->
 <!--            <div class="right-text right">-->
 <!--                --><?php //if ( has_nav_menu( 'top_bar_nav' ) ) : ?>
 <!--                --><?php
@@ -70,7 +70,7 @@ if($flatsome_opt['html_intro'] && is_front_page()) echo '<div class="home-intro"
 <!--                --><?php //else: ?>
 <!--                Define your top bar navigation in <b>Apperance > Menus</b>-->
 <!--                --><?php //endif; ?>
-<!--            </div><!-- .pos-text -->-->
+<!--            </div><!-- .pos-text -->
 
         </div><!-- .large-12 columns -->
     </div><!-- .row -->
