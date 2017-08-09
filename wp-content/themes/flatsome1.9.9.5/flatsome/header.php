@@ -275,7 +275,7 @@ if($flatsome_opt['html_intro'] && is_front_page()) echo '<div class="home-intro"
             <ul class="main_nav">
                 <li><a href="<?php echo get_home_url(); ?>"><p><span>Inicio</span></p></a></li>
                 <li class="nav-dash dash-ummi">
-                    <a href="/producto-categoría/ummi">
+                    <a href="/categoria-producto/ummi">
                         <p>
                             <img src="<?php echo get_template_directory_uri(); ?>/images/nav_ummi.png" alt="Ummi">
                         </p>
@@ -283,17 +283,17 @@ if($flatsome_opt['html_intro'] && is_front_page()) echo '<div class="home-intro"
                     <div class="sub-menu">
                         <div>
                             <div class="sub-menu-left sub-menu-sec">
-                                <div class="sub-menu-left-temp-0"></div>
+                                <?php wp_nav_menu( array('menu_id' => 2 )); ?>
+<!--                                <div class="sub-menu-left-temp-0"></div>-->
                             </div>
                             <div class="sub-menu-left2 sub-menu-sec">
                                 <div class="sub-menu-left2-temp-0"></div>
                             </div>
-                            <?php wp_nav_menu( array('menu' => 'ummi-nav' )); ?>
                         </div>
                     </div>
                 </li>
                 <li class="nav-dash dash-bala">
-                    <a href="/producto-categoría/bala">
+                    <a href="/categoria-producto/bala">
                         <p>
                             <img src="<?php echo get_template_directory_uri(); ?>/images/van_bala.png" alt="Bala">
                         </p>
@@ -301,12 +301,12 @@ if($flatsome_opt['html_intro'] && is_front_page()) echo '<div class="home-intro"
                     <div class="sub-menu">
                         <div>
                             <div class="sub-menu-left sub-menu-sec">
-                                <div class="sub-menu-left-temp-1"></div>
+                                <?php wp_nav_menu( array('menu_id' => 17 )); ?>
+<!--                                <div class="sub-menu-left-temp-1"></div>-->
                             </div>
                             <div class="sub-menu-left2 sub-menu-sec">
                                 <div class="sub-menu-left2-temp-1"></div>
                             </div>
-                            <?php wp_nav_menu( array('menu' => 'bala-nav' )); ?>
                         </div>
                     </div>
                 </li>
