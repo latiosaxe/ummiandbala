@@ -210,10 +210,12 @@ function flatsome_setup() {
 
 	/*  Registrer menus. */
 	register_nav_menus( array(
-		'primary' => __( 'Main Menu', 'flatsome' ),
-		'footer' => __( 'Footer Menu', 'flatsome' ),
-		'top_bar_nav' => __( 'Top bar Menu', 'flatsome' ),
-		'my_account' => __( 'My Account Menu', 'flatsome' ),
+        'primary' => __( 'Main Menu', 'flatsome' ),
+		'ummi' => __( 'Menu Ummi', 'flatsome' ),
+        'bala' => __( 'Menu Bala', 'flatsome' )
+//		'footer' => __( 'Footer Menu', 'flatsome' ),
+//		'top_bar_nav' => __( 'Top bar Menu', 'flatsome' ),
+//		'my_account' => __( 'My Account Menu', 'flatsome' ),
 	) );
 
 	/*  Enable support for Post Formats */
