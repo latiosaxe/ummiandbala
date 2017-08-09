@@ -283,7 +283,7 @@ if($flatsome_opt['html_intro'] && is_front_page()) echo '<div class="home-intro"
                     <div class="sub-menu">
                         <div>
                             <div class="sub-menu-left sub-menu-sec">
-                                <?php wp_nav_menu( array('menu_id' => 2 )); ?>
+                                <?php wp_nav_menu( array('menu' => 'ummi' )); ?>
 <!--                                <div class="sub-menu-left-temp-0"></div>-->
                             </div>
                             <div class="sub-menu-left2 sub-menu-sec">
@@ -300,8 +300,8 @@ if($flatsome_opt['html_intro'] && is_front_page()) echo '<div class="home-intro"
                     </a>
                     <div class="sub-menu">
                         <div>
-                            <div class="sub-menu-left sub-menu-sec">
-                                <?php wp_nav_menu( array('menu_id' => 17 )); ?>
+                            <div class="sub-menu-left sub-menu-sec"> 
+                                <?php wp_nav_menu( array('menu' => 'bala' )); ?>
 <!--                                <div class="sub-menu-left-temp-1"></div>-->
                             </div>
                             <div class="sub-menu-left2 sub-menu-sec">
